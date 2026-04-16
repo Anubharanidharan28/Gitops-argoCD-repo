@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: portfolio-website
-          image: 'asia-south1-docker.pkg.dev/testing-bharani/personal-portfolio-website/portfolio-website:23'
+          image: 'asia-south1-docker.pkg.dev/testing-bharani/personal-portfolio-website/portfolio-website:24'
           ports:
             - containerPort: 80
