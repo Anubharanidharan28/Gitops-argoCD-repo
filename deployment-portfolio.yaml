@@ -5,7 +5,7 @@ metadata:
   labels:
     app: portfolio-website
 spec:
-  replicas: 2
+  replicas: 3   # adjust as needed
   selector:
     matchLabels:
       app: portfolio-website
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: portfolio-website
-          image: 'asia-south1-docker.pkg.dev/testing-bharani/personal-portfolio-website/portfolio-website:32'
+          image: asia-south1-docker.pkg.dev/testing-bharani/personal-portfolio-website/portfolio-website:32
           ports:
             - containerPort: 80
